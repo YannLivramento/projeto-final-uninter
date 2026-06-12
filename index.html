@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brechó - São Francisco Xavier</title>
+    <!--LINKANDO O ARQUIVO CSS EXTERNO PARA ESTILIZAÇÃO DO SITE-->
+    <link rel="stylesheet" href="style.css">
+    <!--IMPORTANDO A FONTE JOSEFIN SANS QUE FOI USADA NOS TEXTOS DO SITE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!--FAVICON DO SITE-->
+    <link rel="icon" type="image/x-icon" href="imagens/favicon.png">
+</head>
+<body>
+    <!-- CABEÇALHO COM OS BOTÕES PARA NAVEGAÇÃO-->
+    <header >
+        <button class="btn shadow" onclick="window.location.href='#'">
+            Início
+        </button>
+        <button class="btn shadow" onclick="window.location.href='#anchor-who'">
+            Sobre Nós
+        </button>
+        <button class="btn shadow" onclick="window.location.href='#address'">
+            Endereço
+        </button>
+    </header>
+    <!--PRIMEIRA SEÇÃO DO SITE, COM UMA DIV TENDO OUTRAS DUAS DIVS ANINHADAS DENTRO DELA PARA DISPOR A APRESENTAÇÃO E A IMAGEM DO BRECHÓ-->
+    <div class="container">
+        <div class="box1">
+            <h1>Brechó</h1>
+            <h2 id="name">São Francisco Xavier</h2>
+            <p id="main-presentation">Conheça um espaço onde cada peça carrega uma nova história. Nosso brechó beneficente une estilo, sustentabilidade e solidariedade em uma iniciativa feita com carinho para a comunidade. Aqui, suas compras ajudam a transformar vidas e incentivar um consumo mais consciente. Preparamos tudo com cuidado para que você encontre roupas e acessórios para fazer a diferença. Venha fazer parte dessa corrente do bem e descobrir tesouros únicos esperando por você!</p>
+        </div>
+        <div class="box2">
+            <img src="imagens/face1.jpg" alt="Fachada do Brechó" class="shadow rounded" id="first-image">
+        </div>
+    </div>
+    <!--SEGUNDA SEÇÃO DO SITE, NOVAMENTE COM UMA DIV TENDO OUTRAS DUAS DIVS ANINHADAS DENTRO DELA PARA ORGANIZAR A IMAGEM DA PARÓQUIA SÃO FRANCISCO XAVIER E A SEÇÃO SOBRE NÓS-->
+    <div class="container" id="second-section">
+       <h2 class="who" id="anchor-who">Quem Somos Nós</h2> 
+    </div>
+    <div class="container" id="second-section">
+         <div class="box2">
+            <img src="imagens/church1.jpg" alt="Fachada do Brechó" class="shadow rounded" id="second-image">
+        </div>
+        <div class="box2">
+            <p id="about">O Brechó da Paróquia São Francisco Xavier nasceu como uma iniciativa beneficente feita com carinho, solidariedade e compromisso com a comunidade. Mais do que oferecer roupas e oportunidades acessíveis, o projeto busca transformar pequenos gestos em apoio concreto para ações de caridade e para os diversos trabalhos realizados pela paróquia em favor do crescimento, da dignidade e do bem-estar das famílias da região. Cada doação, cada visita e cada contribuição ajudam a fortalecer uma corrente de cuidado coletivo, esperança e acolhimento para todos que fazem parte dessa caminhada.</p>
+        </div>
+    </div>
+    <!--TERCEIRA E ÚLTIMA SEÇÃO DO SITE, COM UMA DIV ORGANIZANDO O ENDEREÇO E OS HORÁRIOS DE FUNCIONAMENTO DO BRECHÓ-->
+    <div class="container">
+        <h2 class="who">Endereço e Horários de Funcionamento</h2>
+    </div>
+    <div class="container box3">
+        <p id="address">O Brechó São Francisco Xavier está localizado na<br>Rodovia Virgílio Várzea, 538, Monte Verde, Florianópolis.</p>
+        <p id="address">O atendimento acontece de:<br> Terças às sextas, das 14:00 às 18:00</p>
+        
+    </div>
+    
+    <footer>
+        <p id="footer">© Feito por Yann Livramento, 2026. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
